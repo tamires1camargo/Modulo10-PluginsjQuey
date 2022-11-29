@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Viagem de Trem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Viagem Turística de Trem</h1>
+        </div>
+    </header>
+    <div id="carousel-imagens">
+        <img src="./images/embarque.jpg" alt="Embarque">
+        <img src="./images/passageiros1.jpg" alt="Passageiros1">
+        <img src="./images/passageiros2.jpg" alt="Passageiros2">
+        <img src="./images/passageiros3.jpg" alt="Passageiros3">
+        <img src="./images/embarque.jpg" alt="Embarque">
+        <img src="./images/passageiros1.jpg" alt="Passageiros1">
+        <img src="./images/passageiros2.jpg" alt="Passageiros2">
+        <img src="./images/passageiros3.jpg" alt="Passageiros3">
+        <img src="./images/embarque.jpg" alt="Embarque">
+        <img src="./images/passageiros1.jpg" alt="Passageiros1">
+        <img src="./images/passageiros2.jpg" alt="Passageiros2">
+        <img src="./images/passageiros3.jpg" alt="Passageiros3">
+    </div>
+    <section id="sobre-a-viagem">
+        <div class="container container-flex">
+            <img src="./images/trem.jpg" alt="Imagem da Locomotiva">
+            <div>
+                <h2>Sobre a Viagem</h2>
+                <p>
+                    O passeio de trem pela serra do mar é um dos atrativos turísticos mais procurados por quem visita a região em busca de uma experiência de contato com a natureza a bordo da tradicional Locomotiva Vila Velha.
+                </p>
+                <p>
+                    A linha de trem Locomotiva Vila Velha, já está há mais de vinte anos realizando passeios e promovendo entretenimento. Durante a viagem os passeios podem ouvir toda histórica da região enquanto batem belas fotos da paisagem.
+                </p>
+                <p>
+                    O horário de todos os passeios, bem como a disponibilidade de vagas podem ser consultados através do site. Preencha o formulário de interesse da viagem e aproveite o passeio!!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Formulário de Cadastro</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="cpf">CPF:</label>
+                    <input id="cpf" name="cpf">
+                </div>
+                <div class="form-campo">
+                    <label for="endereço">Endereço completo:</label>
+                    <input type="text" id="endereço" name="endereço">
+                </div>
+                <div class="form-campo">
+                    <label for="cep">CEP:</label>
+                    <input type="search" id="cep" name="cep">
+                </div>
+                <button type="submit">Quero Viajar</button>
+            </form>
+        </div>
+    </section>
+        <footer>
+            <div class="container container-flex">
+                <p>
+                    2022 &copy; Locomotiva Vila Velha - Todos os direitos reservados
+                </p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./plugins/jquery.mask.min.js"></script>
+        <script src="./plugins/jquery.validate.min.js"></script>
+        <script src="./plugins/messages_pt_BR.min.js"></script>
+        <script src="./main.js"></script>
+</body>
+</html>
